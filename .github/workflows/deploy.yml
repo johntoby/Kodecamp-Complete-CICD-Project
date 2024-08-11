@@ -38,9 +38,9 @@ jobs:
         run: |
           ssh -o StrictHostKeyChecking=no ubuntu@${{ secrets.EC2_PUBLIC_IP }} << EOF
           kubectl config use-context minikube
-          curl -O https://raw.githubusercontent.com/lahteeph/containerization/main/k8s/deployment.yaml
+          curl -O https://github.com/johntoby/Kodecamp-Complete-CICD-Project/blob/main/kubernetes-config/deployment.yaml
           kubectl apply -f deployment.yaml
-          curl -O https://raw.githubusercontent.com/lahteeph/containerization/main/k8s/service.yaml
+          curl -O https://github.com/johntoby/Kodecamp-Complete-CICD-Project/blob/main/kubernetes-config/service.yaml
           kubectl apply -f service.yaml
           EOF
 
