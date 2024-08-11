@@ -1,4 +1,4 @@
-name: kodecamp-project CI/CD Pipeline
+name: kodecamp-Complete-CICD-Project Pipeline
 
 on:
   push:
