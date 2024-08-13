@@ -1,6 +1,6 @@
 # Kodecamp-Complete-CICD-Project
 This is a complete end-to-end DevOps project involving Python, Terraform, AWS, Docker, Kubernetes, GitHub Actions. 
-I will create a simple python app using the flask framework, then containerize the application using, then deploy the application using Kubernetes. Terraform configuration files will be prepared to set up a custom VPC and my ec2 instance. Finally, a GitHub Action yaml file will be configured for automated Continuous Integration. 
+I will create a simple python app using the flask framework, then containerize the it using docker, and finally deploy the application using Kubernetes. Terraform configuration files will be written to Automate the creation of custom VPC and ec2 instance. Finally, a GitHub Action yaml file will be configured for automated Continuous Integration. 
 
 This is the Architecture diagram of the project:
 
