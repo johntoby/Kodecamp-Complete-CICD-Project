@@ -125,7 +125,7 @@ Once you submit, the job will be automatically triggered and the build will occu
 In case you get an error at the minikube deployment stage, ensure the file you copy to download with the curl -O command is the raw github user content file, and not the original file. 
 
 
-## destroy your infrastructure 
+## Destroy your infrastructure 
 At the end, run this command to destroy your infrastructure to avoid AWS excessive billing:
 
  ```
@@ -135,4 +135,4 @@ $ terraform destroy
 ![terraform-destroy](https://github.com/user-attachments/assets/c2c0cd5b-e319-45b5-8f63-2701449824ab)
 
 
-The end! 
+The end! Thanks for following through to the end.
